@@ -1,12 +1,13 @@
-public class Proov1{
+public class Proov1 {
 	public static void main(String[] args){
-		Ristkylik laud1=new Ristkylik(2, 1);
-		Ristkylik laud2=new Ristkylik(1.5, 1);
-		Ristkylik laud3=new Ristkylik(2, 1.5);
-		System.out.println(laud1.pindala()+" "+laud1.ymberm66t());
-		System.out.println(laud2.pindala());
-		System.out.println(laud3.pindala());
-		System.out.println(laud1);
-		System.out.println(laud2.toString());
+
+		Soiduhind takso1= new Soiduhind("Euro Takso", 1.98, 0.48, 10);
+		Soiduhind takso2= new Soiduhind("Amigo Takso", 2, 0.4, 8);
+		Soiduhind takso3= new Soiduhind("Inter Takso", 2.05, 0.35, 12);
+
+		System.out.println(takso1.toString());
+		System.out.println(takso2.toString());
+		System.out.println(takso3.toString());
+
 	}
 }
